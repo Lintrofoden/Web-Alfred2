@@ -18,7 +18,27 @@ namespace WebApplication1.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult AboutUs()
+        {
+            return View();
+        }
+
+        public IActionResult Sport()
+        {
+            return View();
+        }
+
+        public IActionResult Politics()
+        {
+            return View();
+        }
+
+        public IActionResult Finance()
+        {
+            return View();
+        }
+
+        public IActionResult Profile()
         {
             return View();
         }

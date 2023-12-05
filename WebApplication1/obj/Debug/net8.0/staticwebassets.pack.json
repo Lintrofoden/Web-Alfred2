@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Кирилл\\Desktop\\Alfred2\\Web-Alfred2\\WebApplication1\\wwwroot\\imgs\\Axe.jpg",
+      "PackagePath": "staticwebassets\\imgs\\Axe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Кирилл\\Desktop\\Alfred2\\Web-Alfred2\\WebApplication1\\wwwroot\\imgs\\chicken.jpg",
+      "PackagePath": "staticwebassets\\imgs\\chicken.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Кирилл\\Desktop\\Alfred2\\Web-Alfred2\\WebApplication1\\wwwroot\\imgs\\user_avatar.jpg",
+      "PackagePath": "staticwebassets\\imgs\\user_avatar.jpg"
+    },
+    {
       "Id": "C:\\Users\\Кирилл\\Desktop\\Alfred2\\Web-Alfred2\\WebApplication1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
