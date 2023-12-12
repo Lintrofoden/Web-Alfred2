@@ -9,83 +9,83 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApplication1
 build_property.RootNamespace = WebApplication1
-build_property.ProjectDir = C:\Users\Кирилл\Desktop\Alfred2\Web-Alfred2\WebApplication1\
+build_property.ProjectDir = C:\Users\Vance\RiderProjects\Web-Alfred2\WebApplication1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Кирилл\Desktop\Alfred2\Web-Alfred2\WebApplication1
+build_property.MSBuildProjectDirectory = C:\Users\Vance\RiderProjects\Web-Alfred2\WebApplication1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Кирилл/Desktop/Alfred2/Web-Alfred2/WebApplication1/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Vance/RiderProjects/Web-Alfred2/WebApplication1/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred2/Web-Alfred2/WebApplication1/Views/Home/AboutUs.cshtml]
+[C:/Users/Vance/RiderProjects/Web-Alfred2/WebApplication1/Views/Home/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred2/Web-Alfred2/WebApplication1/Views/Home/Finance.cshtml]
+[C:/Users/Vance/RiderProjects/Web-Alfred2/WebApplication1/Views/Home/Finance.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaW5hbmNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred2/Web-Alfred2/WebApplication1/Views/Home/Index.cshtml]
+[C:/Users/Vance/RiderProjects/Web-Alfred2/WebApplication1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred2/Web-Alfred2/WebApplication1/Views/Home/Politics.cshtml]
+[C:/Users/Vance/RiderProjects/Web-Alfred2/WebApplication1/Views/Home/Politics.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb2xpdGljcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred2/Web-Alfred2/WebApplication1/Views/Home/Profile.cshtml]
+[C:/Users/Vance/RiderProjects/Web-Alfred2/WebApplication1/Views/Home/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred2/Web-Alfred2/WebApplication1/Views/Home/Sport.cshtml]
+[C:/Users/Vance/RiderProjects/Web-Alfred2/WebApplication1/Views/Home/Sport.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTcG9ydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred2/Web-Alfred2/WebApplication1/Views/Posts/Create.cshtml]
+[C:/Users/Vance/RiderProjects/Web-Alfred2/WebApplication1/Views/Posts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred2/Web-Alfred2/WebApplication1/Views/Posts/Delete.cshtml]
+[C:/Users/Vance/RiderProjects/Web-Alfred2/WebApplication1/Views/Posts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred2/Web-Alfred2/WebApplication1/Views/Posts/Details.cshtml]
+[C:/Users/Vance/RiderProjects/Web-Alfred2/WebApplication1/Views/Posts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred2/Web-Alfred2/WebApplication1/Views/Posts/Edit.cshtml]
+[C:/Users/Vance/RiderProjects/Web-Alfred2/WebApplication1/Views/Posts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred2/Web-Alfred2/WebApplication1/Views/Posts/Index.cshtml]
+[C:/Users/Vance/RiderProjects/Web-Alfred2/WebApplication1/Views/Posts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred2/Web-Alfred2/WebApplication1/Views/Shared/Error.cshtml]
+[C:/Users/Vance/RiderProjects/Web-Alfred2/WebApplication1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred2/Web-Alfred2/WebApplication1/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Vance/RiderProjects/Web-Alfred2/WebApplication1/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred2/Web-Alfred2/WebApplication1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Vance/RiderProjects/Web-Alfred2/WebApplication1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred2/Web-Alfred2/WebApplication1/Views/_ViewImports.cshtml]
+[C:/Users/Vance/RiderProjects/Web-Alfred2/WebApplication1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred2/Web-Alfred2/WebApplication1/Views/_ViewStart.cshtml]
+[C:/Users/Vance/RiderProjects/Web-Alfred2/WebApplication1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred2/Web-Alfred2/WebApplication1/Views/Shared/_Layout.cshtml]
+[C:/Users/Vance/RiderProjects/Web-Alfred2/WebApplication1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bddmc6yalx
