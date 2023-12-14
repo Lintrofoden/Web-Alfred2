@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vance\\RiderProjects\\Web-Alfred2\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\Кирилл\\Desktop\\Alfred\\1\\Web-Alfred2\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vance\\RiderProjects\\Web-Alfred2\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\Кирилл\\Desktop\\Alfred\\1\\Web-Alfred2\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vance\\RiderProjects\\Web-Alfred2\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\Кирилл\\Desktop\\Alfred\\1\\Web-Alfred2\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\Vance\\RiderProjects\\Web-Alfred2\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\Vance\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vance\\RiderProjects\\Web-Alfred2\\WebApplication1\\obj\\",
+        "projectPath": "C:\\Users\\Кирилл\\Desktop\\Alfred\\1\\Web-Alfred2\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\Кирилл\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Кирилл\\Desktop\\Alfred\\1\\Web-Alfred2\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vance\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Кирилл\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
