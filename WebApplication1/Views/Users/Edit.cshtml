@@ -1,9 +1,12 @@
-﻿@model WebApplication1.ViewModels.CreateUserViewModel
+﻿@model WebApplication1.ViewModels.EditUserViewModel
 @{
-    ViewBag.Title = "Добавление пользователя";
+    ViewBag.Title = "Редактирование пользователя";
 }
-<form asp-action="Create" asp-controller="Users">
+<form asp-action="Edit" asp-controller="Users">
     <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <input type="hidden" asp-for="Id" />
+    </div>
     <div class="form-group">
         <label asp-for="UserName" class="control-label">UserName</label>
         <input type="UserName" asp-for="UserName" class="form-control" />
@@ -13,14 +16,10 @@
         <input type="text" asp-for="Email" class="form-control" />
     </div>
     <div class="form-group">
-        <label asp-for="Password" class="control-label">Пароль</label>
-        <input type="password" asp-for="Password" class="form-control" />
-    </div>
-    <div class="form-group">
         <label asp-for="EmailConformation" class="control-label">Подтверждение почты (true или false)</label>
         <input type="EmailConformation" asp-for="EmailConformation" class="form-control" />
     </div>
     <div class="form-group mt-4">
-        <input type="submit" value="Добавить" class="btn btn-outline-secondary" />
+        <input type="submit" value="Сохранить" class="btn btn-outline-secondary" />
     </div>
 </form>

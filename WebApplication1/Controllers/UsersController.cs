@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using WebApplication1.ViewModels;
 
 namespace WebApplication1.Controllers
 {
@@ -21,7 +23,7 @@ namespace WebApplication1.Controllers
         {
             if (ModelState.IsValid)
             {
-                IdentityUser user = new IdentityUser { Email = model.Email, UserName = model.Email};
+                IdentityUser user = new IdentityUser { Email = model.Email, UserName = model.UserName, EmailConfirmed = model.EmailConformation };
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
@@ -58,7 +60,8 @@ namespace WebApplication1.Controllers
                 if (user != null)
                 {
                     user.Email = model.Email;
-                    user.UserName = model.Email;
+                    user.UserName = model.UserName;
+                    user.EmailConfirmed = model.EmailConformation;
 
                     var result = await _userManager.UpdateAsync(user);
                     if (result.Succeeded)
