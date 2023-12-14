@@ -70,12 +70,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb2xpdGljcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred/1/Web-Alfred2/WebApplication1/Views/Home/Profile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Кирилл/Desktop/Alfred/1/Web-Alfred2/WebApplication1/Views/Home/Sport.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Кирилл/Desktop/Alfred/1/Web-Alfred2/WebApplication1/Views/MyPosts/MyPostsList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlQb3N0c1xNeVBvc3RzTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Кирилл/Desktop/Alfred/1/Web-Alfred2/WebApplication1/Views/Posts/Create.cshtml]
