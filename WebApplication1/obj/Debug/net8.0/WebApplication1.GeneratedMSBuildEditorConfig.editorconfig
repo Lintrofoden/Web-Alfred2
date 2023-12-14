@@ -74,8 +74,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTcG9ydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Кирилл/Desktop/Alfred/1/Web-Alfred2/WebApplication1/Views/MyPosts/MyPostsList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlQb3N0c1xNeVBvc3RzTGlzdC5jc2h0bWw=
+[C:/Users/Кирилл/Desktop/Alfred/1/Web-Alfred2/WebApplication1/Views/MyPosts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlQb3N0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Кирилл/Desktop/Alfred/1/Web-Alfred2/WebApplication1/Views/Posts/Create.cshtml]
@@ -108,6 +108,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Кирилл/Desktop/Alfred/1/Web-Alfred2/WebApplication1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Кирилл/Desktop/Alfred/1/Web-Alfred2/WebApplication1/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Кирилл/Desktop/Alfred/1/Web-Alfred2/WebApplication1/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Кирилл/Desktop/Alfred/1/Web-Alfred2/WebApplication1/Views/_ViewImports.cshtml]

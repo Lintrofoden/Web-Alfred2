@@ -1,15 +1,15 @@
 ﻿@{
-    ViewData["Title"] = "Profile Page";
+    ViewData["Title"] = "My Posts Page";
 }
 
 <div class="text-center w-100">
     <div class="d-flex">
-        <img src="~/imgs/user_avatar.jpg" style="width: 100px; height: 100px">
+        @* <img src="~/imgs/user_avatar.jpg" style="width: 100px; height: 100px"> *@
         <div class="d-flex flex-column align-items-start">
-            <h1>Имя пользователя</h1>
-            <p>Username</p>
+           @*  <h1>Имя пользователя</h1>
+            <p>Username</p> *@
 
-            <h2>Посты пользователя:</h2>
+            <h2>Новости пользователя @User.Identity?.Name:</h2>
             <ul>
                 <li>
                     <h3>Title1</h3>
