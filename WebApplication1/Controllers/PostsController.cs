@@ -22,7 +22,8 @@ namespace WebApplication1.Controllers
         // GET: Posts
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Posts.ToListAsync());
+            var applicationDbContext = _context.Posts.Include(p => p.Category);
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Posts/Details/5
@@ -34,6 +35,7 @@ namespace WebApplication1.Controllers
             }
 
             var post = await _context.Posts
+                .Include(p => p.Category)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (post == null)
             {
@@ -46,6 +48,7 @@ namespace WebApplication1.Controllers
         // GET: Posts/Create
         public IActionResult Create()
         {
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Id");
             return View();
         }
 
@@ -54,7 +57,7 @@ namespace WebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Author,Title,Content,Category,Image,DatePublished")] Post post)
+        public async Task<IActionResult> Create([Bind("Id,Author,Title,Content,CategoryId,Image,DatePublished")] Post post)
         {
             if (ModelState.IsValid)
             {
@@ -62,6 +65,7 @@ namespace WebApplication1.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Id", post.CategoryId);
             return View(post);
         }
 
@@ -78,6 +82,7 @@ namespace WebApplication1.Controllers
             {
                 return NotFound();
             }
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Id", post.CategoryId);
             return View(post);
         }
 
@@ -86,7 +91,7 @@ namespace WebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Author,Title,Content,Category,Image,DatePublished")] Post post)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Author,Title,Content,CategoryId,Image,DatePublished")] Post post)
         {
             if (id != post.Id)
             {
@@ -113,6 +118,7 @@ namespace WebApplication1.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Id", post.CategoryId);
             return View(post);
         }
 
@@ -125,6 +131,7 @@ namespace WebApplication1.Controllers
             }
 
             var post = await _context.Posts
+                .Include(p => p.Category)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (post == null)
             {
