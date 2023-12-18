@@ -705,3 +705,5 @@ C:\Users\Кирилл\Desktop\Alfred\1\Web-Alfred2\WebApplication1\obj\Debug\net
 C:\Users\Кирилл\Desktop\Alfred\1\Web-Alfred2\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
 C:\Users\Кирилл\Desktop\Alfred\1\Web-Alfred2\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll
 C:\Users\Кирилл\Desktop\Alfred\1\Web-Alfred2\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter.dll
+C:\Users\Vance\RiderProjects\Web-Alfred2\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll
+C:\Users\Vance\RiderProjects\Web-Alfred2\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter.dll
