@@ -17,7 +17,7 @@ public class Post
     [Display(Name="ID Категории")]
     public int CategoryId { get; set; }
     [Display(Name="Категория")]
-    public Category Category { get; set; }
+    public Category? Category { get; set; }
     [Display(Name="Картинка")]
     public string? Image { get; set; }
     public DateTime DatePublished { get; set; }

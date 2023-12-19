@@ -48,7 +48,7 @@ namespace WebApplication1.Controllers
         // GET: Posts/Create
         public IActionResult Create()
         {
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Id");
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
             return View();
         }
 
@@ -65,7 +65,7 @@ namespace WebApplication1.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Id", post.CategoryId);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", post.CategoryId);
             return View(post);
         }
 
