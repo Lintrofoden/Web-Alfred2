@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -49,6 +50,15 @@ namespace WebApplication1.Controllers
         public IActionResult Create()
         {
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
+            if (HttpContext.Request.Cookies.ContainsKey("Title") && HttpContext.Request.Cookies.ContainsKey("Content") && HttpContext.Request.Cookies.ContainsKey("Image") && HttpContext.Request.Cookies.ContainsKey("DatePublished"))
+            {
+                ViewData["Title"] = HttpContext.Request.Cookies["Title"];
+                ViewData["Content"] = HttpContext.Request.Cookies["Content"];
+                ViewData["Image"] = HttpContext.Request.Cookies["Image"];
+                //ViewData["DatePublished"] = DateTime.ParseExact(HttpContext.Request.Cookies["DatePublished"], "dd/MM/yyyy HH:mm:ss", CultureInfo.InvariantCulture);
+                ViewData["DatePublished"] = HttpContext.Request.Cookies["DatePublished"];
+            }
+
             return View();
         }
 
@@ -57,13 +67,27 @@ namespace WebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Author,Title,Content,CategoryId,Image,DatePublished")] Post post)
+        public async Task<IActionResult> Create([Bind("Id,Author,Title,Content,CategoryId,Image,DatePublished")] Post post, string save)
         {
-            if (ModelState.IsValid)
+            if(save == "yes" && post.Title != null && post.Content != null && post.Image != null && post.DatePublished != null)
             {
-                _context.Add(post);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                HttpContext.Response.Cookies.Append("Title", post.Title.ToString());
+                HttpContext.Response.Cookies.Append("Content", post.Content.ToString());
+                HttpContext.Response.Cookies.Append("Image", post.Image.ToString());
+                HttpContext.Response.Cookies.Append("DatePublished", post.DatePublished.ToString());
+                //ViewData["Title"] = HttpContext.Request.Cookies["Title"].ToString();
+                //ViewData["Content"] = HttpContext.Request.Cookies["Content"].ToString();
+                //ViewData["Image"] = HttpContext.Request.Cookies["Image"].ToString();
+                //ViewData["DatePublished"] = HttpContext.Request.Cookies["DatePublished"].ToString();
+            }
+            else
+            {
+                if (ModelState.IsValid)
+                {
+                    _context.Add(post);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
             }
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", post.CategoryId);
             return View(post);
